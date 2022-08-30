@@ -51,15 +51,20 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid rgb(172, 171, 171);
 }
+.content {
+    padding-left: 30px;
+}
 .downarrow {
-    font-size: 1em;
+    font-size: 15px;
     vertical-align: middle;
 }
-.main-content {
+.background-content {
     background-color: white;
     width: 80%;
     margin:5px auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 li {
     list-style-type: none;
@@ -114,6 +119,7 @@ li {
     border-radius: 50%;
     width: 15px;
     height: 15px;
+    line-height: 1rem;
     text-align: center;
     vertical-align: middle;
     font-size: 12px;
@@ -128,6 +134,7 @@ li {
     height: 15px;
     text-align: center;
     vertical-align: middle;
+    line-height: 1rem;
     font-size: 12px;
     margin-right: 5px;
 }
