@@ -7,6 +7,7 @@ header {
 }
 body {
     background-color: #f6f8f9;
+
 }
 .title {
     line-height: 40px;
@@ -31,9 +32,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    padding-top: 2%;
-    background-color: #f6f8f9;
-
+    padding-top:2%;
 }
 .first-one {
     background-color: #47adf1;
@@ -51,4 +50,28 @@ body {
     color:rgb(172, 171, 171);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid rgb(172, 171, 171);
+}
+.downarrow {
+    font-size: 1em;
+    vertical-align: middle;
+}
+.main-content {
+    background-color: white;
+    width: 80%;
+    margin:5px auto;
+}
+li {
+    list-style-type: none;
+}
+.check {
+    display: inline-block;
+    color:#2dc94f ;
+    border: 2px solid #2dc94f;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-right: 5px;
 }
