@@ -68,7 +68,7 @@ body {
 }
 li {
     list-style-type: none;
-    line-height: 2;
+    line-height: 2rem;
 }
 .special-note1 {
     color: white;
