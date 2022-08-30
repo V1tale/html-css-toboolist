@@ -1,0 +1,19 @@
+* {
+
+}
+.title {
+    line-height: 40px;
+}
+.log {
+    display: inline-block;
+    vertical-align: middle;
+    height: 50px;
+}
+.name {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #021732;
+}
+
