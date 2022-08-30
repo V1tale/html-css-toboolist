@@ -93,7 +93,20 @@ li {
     font-size: 12px;;
     padding: 3px;
 }
-
+.special-note5 {
+    color: white;
+    background: #d864a2 ;
+    border-radius: 5px;
+    font-size: 12px;;
+    padding: 3px;
+}
+.special-note6 {
+    color: white;
+    background: #b0c926 ;
+    border-radius: 5px;
+    font-size: 12px;;
+    padding: 3px;
+}
 .check {
     display: inline-block;
     color:#2dc94f ;
