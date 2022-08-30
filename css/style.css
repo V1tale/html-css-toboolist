@@ -59,14 +59,57 @@ body {
     background-color: white;
     width: 80%;
     margin:5px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 li {
     list-style-type: none;
+    line-height: 2;
 }
+.special-note1 {
+    color: white;
+    background: #45abea;
+    border-radius: 5px;
+    font-size: 12px;;
+    padding: 3px;
+}
+.special-note2 {
+    color: white;
+    background: #9e75e4;
+    border-radius: 5px;
+    font-size: 12px;;
+    padding: 3px;
+}
+.special-note3 {
+    color: white;
+    background: #64c0a9 ;
+    border-radius: 5px;
+    font-size: 12px;;
+    padding: 3px;
+}
+.special-note4 {
+    color: white;
+    background: #f29f35 ;
+    border-radius: 5px;
+    font-size: 12px;;
+    padding: 3px;
+}
+
 .check {
     display: inline-block;
     color:#2dc94f ;
     border: 2px solid #2dc94f;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.cross {
+    display: inline-block;
+    color:#c92d2d ;
+    border: 2px solid #c92d2d;
     border-radius: 50%;
     width: 15px;
     height: 15px;
