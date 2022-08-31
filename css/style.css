@@ -34,21 +34,19 @@ body {
     margin: 0 auto;
     padding-top:2%;
 }
-.first-one {
-    background-color: #47adf1;
+.input {
     border: 0px;
     border-radius: 5px;
     padding: 5px 8px;
-    color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.first-one {
+    background-color: #47adf1;
+    color:white;
 }
 .second-one {
     background-color: white;
-    border: 0px;
-    border-radius: 5px;
-    padding: 5px 8px;
     color:rgb(172, 171, 171);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid rgb(172, 171, 171);
 }
 .content {
@@ -70,71 +68,46 @@ li {
     list-style-type: none;
     line-height: 2rem;
 }
-.special-note1 {
+.special {
     color: white;
+    border-radius: 5px;
+    font-size: 12px;;
+    padding: 3px;
+}
+.note1 {
     background: #45abea;
-    border-radius: 5px;
-    font-size: 12px;;
-    padding: 3px;
 }
-.special-note2 {
-    color: white;
+.note2 {
     background: #9e75e4;
-    border-radius: 5px;
-    font-size: 12px;;
-    padding: 3px;
 }
-.special-note3 {
-    color: white;
+.note3 {
     background: #64c0a9 ;
-    border-radius: 5px;
-    font-size: 12px;;
-    padding: 3px;
 }
-.special-note4 {
-    color: white;
+.note4 {
     background: #f29f35 ;
-    border-radius: 5px;
-    font-size: 12px;;
-    padding: 3px;
 }
-.special-note5 {
-    color: white;
+.note5 {
     background: #d864a2 ;
-    border-radius: 5px;
-    font-size: 12px;;
-    padding: 3px;
 }
-.special-note6 {
-    color: white;
+.note6 {
     background: #b0c926 ;
-    border-radius: 5px;
-    font-size: 12px;;
-    padding: 3px;
+}
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    line-height: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-right: 5px;
 }
 .check {
-    display: inline-block;
     color:#2dc94f ;
     border: 2px solid #2dc94f;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    line-height: 1rem;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 12px;
-    margin-right: 5px;
 }
 .cross {
-    display: inline-block;
     color:#c92d2d ;
     border: 2px solid #c92d2d;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 1rem;
-    font-size: 12px;
-    margin-right: 5px;
 }
